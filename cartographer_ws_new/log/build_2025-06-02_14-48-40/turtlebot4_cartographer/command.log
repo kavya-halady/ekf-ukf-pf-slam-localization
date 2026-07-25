@@ -1,0 +1,4 @@
+Invoking command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sneha/cartographer_ws/build/turtlebot4_cartographer -- -j12 -l12
+Invoked command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sneha/cartographer_ws/build/turtlebot4_cartographer -- -j12 -l12
+Invoking command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sneha/cartographer_ws/build/turtlebot4_cartographer
+Invoked command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sneha/cartographer_ws/build/turtlebot4_cartographer

@@ -1,0 +1,150 @@
+[0.892s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtlebot4_cartographer'][0m
+[0.893s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtlebot4_cartographer'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], bazel_args=None, bazel_task=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7dc3d8151cc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dc3d8150d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dc3d8150d90>>, mixin_verb=('build',))[0m
+[1.031s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/sneha/cartographer_ws'
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.033s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.040s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['bazel', 'cmake', 'meson', 'python']
+[1.040s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'bazel'
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'meson'
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.042s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.042s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.043s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.043s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.043s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.043s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['bazel', 'cmake', 'meson', 'python']
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'bazel'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'meson'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.044s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.045s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extension 'ignore'
+[1.045s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extension 'ignore_ament_install'
+[1.045s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extensions ['colcon_pkg']
+[1.046s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extension 'colcon_pkg'
+[1.046s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extensions ['colcon_meta']
+[1.046s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extension 'colcon_meta'
+[1.046s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extensions ['ros']
+[1.046s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtlebot4_cartographer) by extension 'ros'
+[1.054s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtlebot4_cartographer' with type 'ros.ament_cmake' and name 'turtlebot4_cartographer'[0m
+[1.054s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.054s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.054s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.054s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.054s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.086s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[1.086s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[1.090s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/sneha/cartographer_ws/install[0m
+[1.093s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 507 installed packages in /opt/ros/humble[0m
+[1.098s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'bazel_args' from command line to 'None'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'bazel_task' from command line to 'None'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'meson_args' from command line to '[]'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtlebot4_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.243s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtlebot4_cartographer' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/sneha/cartographer_ws/build/turtlebot4_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sneha/cartographer_ws/install/turtlebot4_cartographer', 'merge_install': False, 'meson_args': [], 'path': '/home/sneha/cartographer_ws/src/turtlebot4_cartographer', 'symlink_install': False, 'test_result_base': None}[0m
+[1.244s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.246s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.247s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/sneha/cartographer_ws/src/turtlebot4_cartographer' with build type 'ament_cmake'
+[1.247s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/sneha/cartographer_ws/src/turtlebot4_cartographer'
+[1.252s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.253s] [34mcolcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id[0m [1;30mDEBUG[0m [32mAllocated ROS_DOMAIN_ID=101 for '/home/sneha/cartographer_ws/build/turtlebot4_cartographer'[0m
+[1.253s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'ros_domain_id' for command environment: 
+[1.253s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.253s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.279s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sneha/cartographer_ws/build/turtlebot4_cartographer -- -j12 -l12[0m
+[1.400s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sneha/cartographer_ws/build/turtlebot4_cartographer -- -j12 -l12[0m
+[1.470s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sneha/cartographer_ws/build/turtlebot4_cartographer[0m
+[1.495s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot4_cartographer)
+[1.496s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sneha/cartographer_ws/build/turtlebot4_cartographer[0m
+[1.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer' for CMake module files
+[1.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer' for CMake config files
+[1.508s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot4_cartographer', 'cmake_prefix_path')
+[1.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/hook/cmake_prefix_path.ps1'
+[1.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/hook/cmake_prefix_path.dsv'
+[1.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/hook/cmake_prefix_path.sh'
+[1.514s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/bin'
+[1.514s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/lib/pkgconfig/turtlebot4_cartographer.pc'
+[1.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/lib/python3.10/site-packages'
+[1.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/bin'
+[1.515s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.ps1'
+[1.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.dsv'
+[1.518s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.sh'
+[1.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.bash'
+[1.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.zsh'
+[1.522s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/colcon-core/packages/turtlebot4_cartographer)
+[1.575s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtlebot4_cartographer)
+[1.575s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer' for CMake module files
+[1.576s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer' for CMake config files
+[1.576s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtlebot4_cartographer', 'cmake_prefix_path')
+[1.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/hook/cmake_prefix_path.ps1'
+[1.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/hook/cmake_prefix_path.dsv'
+[1.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/hook/cmake_prefix_path.sh'
+[1.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/bin'
+[1.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/lib/pkgconfig/turtlebot4_cartographer.pc'
+[1.580s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/lib/python3.10/site-packages'
+[1.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/bin'
+[1.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.ps1'
+[1.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.dsv'
+[1.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.sh'
+[1.584s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.bash'
+[1.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/turtlebot4_cartographer/package.zsh'
+[1.585s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/sneha/cartographer_ws/install/turtlebot4_cartographer/share/colcon-core/packages/turtlebot4_cartographer)
+[1.586s] [34mcolcon.colcon_ros_domain_id_coordinator.shell.ros_domain_id[0m [1;30mDEBUG[0m [32mReleased ROS_DOMAIN_ID=101 for '/home/sneha/cartographer_ws/build/turtlebot4_cartographer'[0m
+[1.586s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.587s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.587s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.588s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.602s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.602s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.603s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.651s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sneha/cartographer_ws/install/local_setup.ps1'
+[1.654s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/sneha/cartographer_ws/install/_local_setup_util_ps1.py'
+[1.655s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sneha/cartographer_ws/install/setup.ps1'
+[1.657s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sneha/cartographer_ws/install/local_setup.sh'
+[1.658s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/sneha/cartographer_ws/install/_local_setup_util_sh.py'
+[1.659s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sneha/cartographer_ws/install/setup.sh'
+[1.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sneha/cartographer_ws/install/local_setup.bash'
+[1.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sneha/cartographer_ws/install/setup.bash'
+[1.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/sneha/cartographer_ws/install/local_setup.zsh'
+[1.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/sneha/cartographer_ws/install/setup.zsh'
+[1.668s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating '/home/sneha/cartographer_ws/install/spawn_shell.bash'

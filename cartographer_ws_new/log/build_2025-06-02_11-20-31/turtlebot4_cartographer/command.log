@@ -1,0 +1,2 @@
+Invoking command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer': /usr/bin/cmake /home/sneha/cartographer_ws/src/turtlebot4_cartographer -DCMAKE_INSTALL_PREFIX=/home/sneha/cartographer_ws/install/turtlebot4_cartographer
+Invoked command in '/home/sneha/cartographer_ws/build/turtlebot4_cartographer' returned '1': /usr/bin/cmake /home/sneha/cartographer_ws/src/turtlebot4_cartographer -DCMAKE_INSTALL_PREFIX=/home/sneha/cartographer_ws/install/turtlebot4_cartographer

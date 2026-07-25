@@ -1,0 +1,11 @@
+pf vs Ground Truth RMSE Analysis Results
+==================================================
+Number of compared points: 1195
+Position RMSE: 0.218033 m
+X RMSE: 0.139233 m
+Y RMSE: 0.167788 m
+Yaw RMSE: 2.142601 rad (122.7620 deg)
+Position MAE: 0.193124 m
+Max Position Error: 0.372846 m
+Mean X Error: -0.028925 ± 0.136195 m
+Mean Y Error: 0.049012 ± 0.160469 m

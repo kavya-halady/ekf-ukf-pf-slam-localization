@@ -1,0 +1,11 @@
+UKF vs Ground Truth RMSE Analysis Results
+==================================================
+Number of compared points: 1195
+Position RMSE: 0.074358 m
+X RMSE: 0.049497 m
+Y RMSE: 0.055491 m
+Yaw RMSE: 1.927810 rad (110.4554 deg)
+Position MAE: 0.063479 m
+Max Position Error: 0.192154 m
+Mean X Error: 0.026541 ± 0.041779 m
+Mean Y Error: 0.031746 ± 0.045513 m
